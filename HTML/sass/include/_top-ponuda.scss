@@ -1,0 +1,31 @@
+#top-ponuda{
+    .owl-carousel .owl-nav button{
+        
+        position: absolute;
+        top: 30%;
+        outline: none;
+
+        &.owl-prev{
+            left: 0;
+        }
+
+        &.owl-next {
+            right: 0;
+        }
+
+
+        &.owl-prev {
+            font-size: 35px;
+            color: $color-second;
+            margin-left: -4rem;
+            padding: 0 1rem;
+        }
+
+        &.owl-next {
+            font-size: 35px;
+            color: $color-second;
+            margin-right: -4rem;
+            padding: 0 1rem;
+        }
+    }
+}

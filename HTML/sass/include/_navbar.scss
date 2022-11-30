@@ -1,0 +1,62 @@
+.navtop {
+    span {
+        span:hover {
+            color: $color-primary;
+        }
+    }
+
+    button:hover {
+        background-color: $color-primary;
+        color: white;
+
+    }
+}
+
+
+nav {
+    .navbar-nav {
+        li {
+            padding-left: 35px;
+            padding-right: 35px;
+            
+        }
+
+        a {
+            border-bottom-style: solid;
+            border-color: rgba(0, 0, 0, 0%);
+            color: $color-second;
+            &:hover {
+                border-bottom-style: solid;
+                border-color: $color-primary;
+                color: $color-primary;
+                transition: all 0.3s;
+
+
+            }
+        }
+
+        .menu-area{
+            position: static;
+            
+        }
+
+        .mega-area{
+            position: absolute;
+            width: 75%;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+        
+
+            a{
+                text-decoration: none;
+            }
+
+        }
+
+       
+        
+    }
+
+}
+

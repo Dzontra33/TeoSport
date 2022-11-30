@@ -1,0 +1,27 @@
+#new-product {
+    .owl-carousel .item .product {
+        border-bottom-style: solid;
+        border-color: rgba(0, 0, 0, 0%);
+        &:hover {
+            border-color: $color-primary;
+        }
+
+        a {
+            overflow: hidden;
+
+            &:hover {
+                color: $color-primary;
+                text-decoration: underline;
+            }
+        }
+
+        img {
+            transition: transform 0.3s ease;
+
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+
+    }
+}

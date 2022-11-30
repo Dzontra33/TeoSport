@@ -1,0 +1,33 @@
+/* Color Template */
+
+.color-primary{
+    color: $color-primary !important;
+}
+
+.color-primary-bg{
+    background: $color-primary !important;
+}
+
+.color-second{
+    color: $color-second !important;
+}
+
+.color-second-bg {
+    background: $color-second !important;
+}
+
+.color-white{
+    color: $color-white;
+}
+
+.color-white-bg {
+    background: $color-white;
+}
+
+.color-pale {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.color-trans{
+    color: rgba(0, 0, 0, 0);
+}

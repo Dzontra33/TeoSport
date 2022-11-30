@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeoSport</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="sass/style.css">
+
+    <!-- Boostrap CSS CDN -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- OwlCarousel CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- FontAwesom CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+<!--  Start #header -->
+    <head id="header">
+
+        <!-- Top navigation menu -->
+       <div class="navtop bg-light p-4 text-center">
+            <div class="container-fluid px-5">
+                <div class="row">
+                    <div class="col-lg-4 col-12">
+                        <a href="index.html"><img src="./assets/logo/logo-head.png" class="w-75" alt=""></a>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <form class="row">
+                            <div class="col p-3 d-flex">
+                                <input class="form-control rounded-0" type="search" placeholder="Pretraži prema nazivu proizvoda, kategoriji.." aria-label="Search">
+                                <button class="btn rounded-0" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </div>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <div class="row">
+                            <div class="col p-4">
+                                <span><a href="" class="border-start font-rale font-size-18 border-end text-dark text-decoration-none px-3"><span><i
+                                                class="fas fa-user"></i> Profil</a></span>
+                                <span><a href="" class=" border-end font-rale font-size-18  text-dark text-decoration-none px-3"><span><i class="fas fa-cart-shopping"></i>
+                                            Korpa (0)</a></span>
+                                <span><a href="" class=" border-end font-rale font-size-18  text-dark text-decoration-none px-3"><span><i class="fas fa-star"></i>
+                                            Whishlist (0)</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+        <!--Bottom navigation menu -->
+        <nav class="navbar my-navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler w-100" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav m-auto font-signika font-size-20 text-uppercase">
+                        <li class="nav-item">
+                            <a class="nav-link" href="novo.html">Novo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="muskarci.html">Muškarci</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="zene.html">Žene</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="deca.html">Deca</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="brendovi.html">Brendovi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="kontakt.html">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+    </head>
+<!--  End #header -->
+
+<!--  Start #main-site -->
+    <main id="main-site">
+
+        <!-- Product -->
+        <section id="product" class="py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="./assets/products/svi_proizvodi/1.jpg" alt="" class="img-fluid">
+                    
+                        <!-- Korpa i lista zelja -->
+                        <div class="row pt-4 font-size-14 font-baloo">
+                            <div class="col">
+                                <button type="submit" class="btn btn-danger form-control text-uppercase rounded-0 p-2"><i
+                                        class="fa-brands fa-opencart"></i></i>
+                                    Dodaj u korpu</button>
+                            </div>
+                            <div class="col">
+                                <button type="submit" class="btn btn-outline-dark form-control text-uppercase rounded-0 p-2"><i
+                                        class="fa-regular fa-star"></i>
+                                    Dodaj u listu želja</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-6 py-5">
+                        <h1 class="font-baloo">Nike REAX 8 TR MESH</h1>
+                            <small>NAM113562-02</small>
+                        <div class="d-flex">
+                            <div class="rating text-warning font-size-20">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                                <a href="" class="font-size-14 px-2">20.345 ratings | 1000+ answered question</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <!--- Product price -->
+                        <div class="product-code my-3 ">
+                            <p class="font-baloo font-size-18 text-uppercase color-pale">Šifra proizvoda: CW4554-109</p>
+
+                            <h5 class="oldPrice text-decoration-line-through color-pale fst-italic">14.590 RSD</h5>
+                            <h1 class="headPrice">12.290 RSD</h1>
+                        </div>
+                        <!--- !Product price -->
+
+                        
+                        <!-- #policy -->
+                        <div class="policy">
+                            <div class="d-flex">
+                                <div class="text-center mr-5">
+                                    <div class="font-size-20 my-2 color-primary">
+                                        <span class="fas fa-retweet border p-3 rounded-pill"></span>
+                                    </div>
+                                    <a href="" class="font-signika font-size-14 text-decoration-none">10 Dana <br> zamena</a>
+                                </div>
+                                <div class="text-center mr-5 px-5">
+                                    <div class="font-size-20 my-2 color-primary">
+                                        <span class="fas fa-truck border p-3 rounded-pill"></span>
+                                    </div>
+                                    <a href="" class="font-signika font-size-14 text-decoration-none">3 Dana <br> isporuka</a>
+                                </div>
+
+                                <div class="text-center mr-5">
+                                    <div class="font-size-20 my-2 color-primary">
+                                        <span class="fas fa-check-double border p-3 rounded-pill"></span>
+                                    </div>
+                                    <a href="" class="font-signika font-size-14 text-decoration-none">2 Godine <br> garancija</a>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- !policy -->
+
+                        <!-- #Veličine -->
+                        <div class="velicina">
+                            <h6 class="font-signika text-uppercase fw-bold">Veličina:</h6>
+                            <div class="d-flex">
+                                <div class="text-center mr-5">
+                                    <div class="font-size-20 my-2 color-primary sizeBtn">
+                                        <button class="btns border p-3 font-size-16 font-signika">41</button>
+                                        <button class="btns border p-3 font-size-16 font-signika">41.5</button>
+                                        <button class="btns border p-3 font-size-16 font-signika">42</button>
+                                        <button class="btns border p-3 font-size-16 font-signika">43</button>
+                                        <button class="btns border p-3 font-size-16 font-signika">44</button>
+                                        <button class="btns border p-3 font-size-16 font-signika">45</button>
+                                        <button class="btns border p-3 font-size-16 font-signika">46</button>
+                                        
+                                    </div>
+                                </div>          
+                            </div>
+                        </div>
+                        <!-- !Veličine -->
+
+                        <!-- #Kolicina -->
+                        
+                            <h6 class="font-signika text-uppercase my-3 fw-bold">Količina:</h6>
+                            <div class="qty d-flex">
+                                <div class="px-4 d-flex font-rale">
+                                    <button data-id="pro" class="qty-up border bg-light p-3" type="button"><i class="fas fa-angle-up"></i></button>
+                                    <input data-id="pro" type="text" value="1" placeholder="1" class="qty-input border px-2 w-50 bg-light text-center font-signika fw-bold font-size-18" disabled>
+                                    <button data-id="pro" class="qty-down border bg-light p-3" type="button"><i class="fas fa-angle-down"></i></button>
+                                    </div>
+                                </div>
+                    </div>
+                    <!-- !Kolicina -->
+                        
+                        <div class="col-12 pt-5">
+                            <h6>Opis proizvoda</h3>
+                                <hr>
+                                <div class="opis font-rubik font-size-14 color-pale">
+                                <p>Nike odražava sportsku eleganciju. Bilo da patike koristite za posao ili pri svakodnevnim aktivnostima, uz ovaj model
+                                izgledaćete bolje i imaćete više samopouzdanja. Nike muške patike inspirišu svojim dizajnom.</p>
+                                <h5 class="">Dizajn i karakteristike muških patika Nike REAX 8 TR MESH</h3>
+                                    <p>Nike Reax 8 TR su muške patike za svaki dan. U osnovu su crne boje sa crnim detaljima. Na sebi imaju nesvakidašnji
+                                    dizajn đona, beli Nike znak sa bočne strane i ime porodice Reax. Plitkog su profila i mogu se nositi u različitim
+                                    odevnim kombinacijama, ali najbolje u sportskim. Ovog proleća i leta budite moderni uz Nike i N Sport. N sport muške
+                                    patike su pravi izbor za vas. Čvrstina i dugotrajnost muških patika prosto će vas iznenaditi. Ukoliko pored
+                                    izdržljivosti želite još i udobnost, onda su ove patike idealno rešenje za vas.Nike predstavlja američku multinacionalnu
+                                    korporaciju koja se bavi proizvodnjom, dizajniranjem i razvojem obuće, odeće, sportske opreme i pružanjem usluga. Nike
+                                    brend teži da doprinosi inspiraciji i inovaciji svakog atlete u svetu. Na taj način se postižu maksimalni ljudski
+                                    potencijali. Sa sedištem u Beavertonu, Oregonu, Nike korporacija obuhvata Nike, Converse, Hurley i Jordan brend.</p>
+                                </div>
+                        </div>
+
+                        <section id="top-ponuda">
+                            <div class="container py-5">
+                                <h3 class="font-rubik text-uppercase">Top Ponuda</h3>
+                                <hr>
+                                <!-- OwlCarousel -->
+                                <div class="owl-carousel owl-theme">
+                                    <!-- OwlCarousel Items -->
+                                    <div class="item py-2">
+                                        <div class="product px-2 font-rale">
+                                            <a href=""><img src="./assets/products/top-ponuda/1.jpg" alt="product1" class="img-fluid"></a>
+                                            <div class=" font-signika text-uppercase">
+                                                <a href="#" class="text-decoration-none color-primary px-3">
+                                                    <h6>Muške patike Nike REAX 8 TR MESH</h6>
+                                                </a>
+                                                <div class="price-old font-size-16 text-decoration-line-through text-danger">17.790 RSD</div>
+                                                <div class="price py-1">
+                                                    <h4>15.790 RSD</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="item py-2">
+                                        <div class="product px-2 font-rale">
+                                            <a href=""><img src="./assets/products/top-ponuda/2.jpg" alt="product2" class="img-fluid"></a>
+                                            <div class=" font-signika text-uppercase">
+                                                <a href="#" class="text-decoration-none color-primary px-3">
+                                                    <h6>Ženske patike adidas SOLAR GLIDE 5 W</h6>
+                                                </a>
+                                                <div class="price-old font-size-16 text-decoration-line-through text-danger">18.790 RSD</div>
+                                                <div class="price py-1">
+                                                    <h4>16.790 RSD</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="item py-2">
+                                        <div class="product px-2 font-rale">
+                                            <a href=""><img src="./assets/products/top-ponuda/3.jpg" alt="product3" class="img-fluid"></a>
+                                            <div class=" font-signika text-uppercase">
+                                                <a href="#" class="text-decoration-none color-primary px-3">
+                                                    <h6>Muške patike adidas SOLAR GLIDE M</h6>
+                                                </a>
+                                                <div class="price-old font-size-16 text-decoration-line-through text-danger">18.790 RSD</div>
+                                                <div class="price py-1">
+                                                    <h4>16.790 RSD</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="item py-2">
+                                        <div class="product px-2 font-rale">
+                                            <a href=""><img src="./assets/products/top-ponuda/4.jpg" alt="product4" class="img-fluid"></a>
+                                            <div class=" font-signika text-uppercase">
+                                                <a href="#" class="text-decoration-none color-primary px-3">
+                                                    <h6>Muške patike Solomon HYPLUSE GTX</h6>
+                                                </a>
+                                                <div class="price-old font-size-16 text-decoration-line-through text-danger">16.490 RSD</div>
+                                                <div class="price py-1">
+                                                    <h4>14.490 RSD</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="item py-2">
+                                        <div class="product px-2 font-rale">
+                                            <a href=""><img src="./assets/products/top-ponuda/5.jpg" alt="product5" class="img-fluid"></a>
+                                            <div class=" font-signika text-uppercase">
+                                                <a href="#" class="text-decoration-none color-primary px-3">
+                                                    <h6>Ženske patike Diadora STEP P STARDUST</h6>
+                                                </a>
+                                                <div class="price-old font-size-16 text-decoration-line-through text-danger">8.690 RSD</div>
+                                                <div class="price py-1">
+                                                    <h4>6.690 RSD</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="item py-2">
+                                        <div class="product px-2 font-rale">
+                                            <a href=""><img src="./assets/products/top-ponuda/6.jpg" alt="product6" class="img-fluid"></a>
+                                            <div class=" font-signika text-uppercase">
+                                                <a href="#" class="text-decoration-none color-primary px-3">
+                                                    <h6>Muške Patike Diadora N.92</h6>
+                                                </a>
+                                                <div class="price-old font-size-16 text-decoration-line-through text-danger">8.990 RSD</div>
+                                                <div class="price py-1">
+                                                    <h4>6.990 RSD</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="item py-2">
+                                        <div class="product px-2 font-rale">
+                                            <a href=""><img src="./assets/products/top-ponuda/7.jpg" alt="product7" class="img-fluid"></a>
+                                            <div class=" font-signika text-uppercase">
+                                                <a href="#" class="text-decoration-none color-primary px-3">
+                                                    <h6>Muške patike Puma BMW MMS MACO SL</h6>
+                                                </a>
+                                                <div class="price-old font-size-16 text-decoration-line-through text-danger">16.290 RSD</div>
+                                                <div class="price py-1">
+                                                    <h4>14.290 RSD</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="item py-2">
+                                        <div class="product px-2 font-rale">
+                                            <a href=""><img src="./assets/products/top-ponuda/8.jpg" alt="product8" class="img-fluid"></a>
+                                            <div class=" font-signika text-uppercase">
+                                                <a href="#" class="text-decoration-none color-primary px-3">
+                                                    <h6>Ženske patike Skechers SIERRA</h6>
+                                                </a>
+                                                <div class="price-old font-size-16 text-decoration-line-through text-danger">10.690 RSD</div>
+                                                <div class="price py-1">
+                                                    <h4>8.690 RSD</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        
+                                    <!-- !OwlCarousel -->
+                                </div>
+                        
+                        </section>
+                   
+                    
+                </div>       
+            </div>
+
+
+        </section>
+        <!-- !Product -->
+
+
+        <!-- Brand Section -->
+        <section id="brand">
+            <div class="container-fluid bg-light p-5">
+                <div class="container m-auto">
+                    <div class="owl-carousel owl-theme">
+                        <!-- OwlCarousel Items -->
+                        <div class="item py-2">
+                            <div class="px-2 font-rale w-50">
+                                <a href=""><img src="./assets/img/brands/1.png" alt="product1" class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div class="item py-2">
+                            <div class="px-2 font-rale w-50">
+                                <a href=""><img src="./assets/img/brands/2.png" alt="product1" class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div class="item py-2">
+                            <div class="px-2 font-rale w-50">
+                                <a href=""><img src="./assets/img/brands/3.png" alt="product1" class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div class="item py-2">
+                            <div class="px-2 font-rale w-50">
+                                <a href=""><img src="./assets/img/brands/4.png" alt="product1" class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div class="item py-2">
+                            <div class="px-2 font-rale w-50">
+                                <a href=""><img src="./assets/img/brands/5.png" alt="product1" class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div class="item py-2">
+                            <div class="product px-2 font-rale w-50">
+                                <a href=""><img src="./assets/img/brands/6.png" alt="product1" class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div class="item py-2">
+                            <div class="product px-2 font-rale w-50">
+                                <a href=""><img src="./assets/img/brands/7.png" alt="product1" class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div class="item py-2">
+                            <div class="product px-2 font-rale w-50">
+                                <a href=""><img src="./assets/img/brands/8.png" alt="product1" class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div class="item py-2">
+                            <div class="product px-2 font-rale w-50">
+                                <a href=""><img src="./assets/img/brands/9.png" alt="product1" class="img-fluid"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- !OwlCarousel -->
+                </div>
+            </div>
+        </section> 
+        <!-- !Brand Section -->
+
+    </main>
+<!--  End !main-site -->
+
+<!--  Start #footer -->
+    <footer id="footer" class="bg-dark p-5 text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12">
+                    <h4 class="font-rubik font-size-20">TeoSport</h4>
+                    <p class="font-size-14 font-signika text-white-50">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores quam necessitatibus quas nostrum in corrupti ipsam.</p>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <h4 class="font-rubik font-size-20">Newslatter</h4>
+                    <form class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control w-75" placeholder="Email">
+                        </div>
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary mt-2">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-2 col-12">
+                    <h4 class="font-rubik font-size-20">Information</h4>
+                    <div class="d-flex flex-column flex-wrap">
+                        <a href="" class="font-signika font-size-14 text-white-50 pb-1">About Us</a>
+                        <a href="" class="font-signika font-size-14 text-white-50 pb-1">Delivery Information</a>
+                        <a href="" class="font-signika font-size-14 text-white-50 pb-1">Privacy Police</a>
+                        <a href="" class="font-signika font-size-14 text-white-50 pb-1">Terms & Condition</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12">
+                    <h4 class="font-rubik font-size-20">Account</h4>
+                    <div class="d-flex flex-column flex-wrap">
+                        <a href="" class="font-signika font-size-14 text-white-50 pb-1">My Account</a>
+                        <a href="" class="font-signika font-size-14 text-white-50 pb-1">Order History</a>
+                        <a href="" class="font-signika font-size-14 text-white-50 pb-1">Wish List</a>
+                        <a href="" class="font-signika font-size-14 text-white-50 pb-1">Newslatter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright text-center bg-dark text-white-50 font-signika py-2">
+        <p>&copy; Copyrights 2022. Design By <a href="">Nikola Teovanovic</a></p>
+    </div>
+<!--  End #footer -->        
+
+    <!-- Boostrap JS Cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+   
+    <!-- OwlCarousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="./js/script.js"></script>
+
+
+</body>
+</html>

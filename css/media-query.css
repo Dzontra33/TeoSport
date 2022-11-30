@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1660px) {
+  #ad-card img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  #option-cards .card {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .kategorije h6{
+    font-size: 20px;
+  }
+  .kategorije{
+    font-size: 20px;
+  
+  }
+  .brendovi h6{
+    font-size: 20px;
+  }
+  .filter-btn{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  
+
+}
+
+
+
+/*# sourceMappingURL=media-query.css.map */
