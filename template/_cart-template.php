@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
 
 ?>
-
+<!--  ja sam peder arsen  -->
 <!-- Shopping Cart -->
 <section id="cart" class="py-3">
     <div class="container-fluid w-75">
