@@ -66,11 +66,13 @@
          <div class="row">
              <div class="col-lg-3 col-12">
                  <h4 class="font-rubik font-size-20">TeoSport</h4>
+                 <hr>
                  <p class="font-size-14 font-signika text-white-50">
                      Kompanija <span class="color-primary">TeoSport</span> je jedan od vodećih distributera najpoznatijih sportskih i modnih brendova sa više od 100 prodajnih objekata na teritoriji Srbije i Bosne i Hercegovine.</p>
              </div>
              <div class="col-lg-4 col-12">
                  <h4 class="font-rubik font-size-20">Newslatter</h4>
+                 <hr>
                  <form class="form-row">
                      <div class="col">
                          <p class="font-size-14 font-signika text-white-50">Budite uvek u toku sa aktuelnim popustima</p>
@@ -83,20 +85,23 @@
              </div>
              <div class="col-lg-2 col-12">
                  <h4 class="font-rubik font-size-20">Informacije</h4>
+                 <hr>
                  <div class="d-flex flex-column flex-wrap">
-                     <a href="" class="font-signika font-size-14 text-white-50 pb-1">Kontakt</a>
-                     <a href="" class="font-signika font-size-14 text-white-50 pb-1">Delivery Information</a>
-                     <a href="" class="font-signika font-size-14 text-white-50 pb-1">Privacy Police</a>
-                     <a href="" class="font-signika font-size-14 text-white-50 pb-1">Terms & Condition</a>
+                     <a href="" class="font-rale font-size-14 text-white-50 pb-1 text-decoration-none">O nama</a>
+                     <a href="" class="font-rale font-size-14 text-white-50 pb-1 text-decoration-none">Kontakt</a>
+                     <a href="" class="font-rale font-size-14 text-white-50 pb-1 text-decoration-none">Postani deo našeg tima</a>
+                     <a href="" class="font-rale font-size-14 text-white-50 pb-1 text-decoration-none">Saradnje sa nama</a>
                  </div>
              </div>
              <div class="col-lg-2 col-12">
-                 <h4 class="font-rubik font-size-20">Account</h4>
+                 <h4 class="font-rubik font-size-20">Korisnički centar</h4>
+                 <hr>
                  <div class="d-flex flex-column flex-wrap">
-                     <a href="" class="font-signika font-size-14 text-white-50 pb-1">My Account</a>
-                     <a href="" class="font-signika font-size-14 text-white-50 pb-1">Order History</a>
-                     <a href="" class="font-signika font-size-14 text-white-50 pb-1">Wish List</a>
-                     <a href="" class="font-signika font-size-14 text-white-50 pb-1">Newslatter</a>
+                     <a href="" class="font-rale font-size-14 text-white-50 pb-1 text-decoration-none">Najčešća pitanja</a>
+                     <a href="" class="font-rale font-size-14 text-white-50 pb-1 text-decoration-none">Isporuka</a>
+                     <a href="" class="font-rale font-size-14 text-white-50 pb-1 text-decoration-none">Reklamacije</a>
+                     <a href="" class="font-rale font-size-14 text-white-50 pb-1 text-decoration-none">Zamene</a>
+                     <a href="" class="font-rale font-size-14 text-white-50 pb-1 text-decoration-none">Žalbe i sugestije</a>
                  </div>
              </div>
          </div>

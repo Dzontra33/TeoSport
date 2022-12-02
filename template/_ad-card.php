@@ -6,7 +6,7 @@
                 <h1 class="card-text py-3 fw-bolder color-secund">Najaktuelniji modeli te čekaju</h1>
                 <img src="./assets/img/sticker-ad.png" class="img-fluid position-absolute top-50 start-0 translate-middle-y" alt="">
                 <img src="./assets/img/sticker-ad.png" class="position-absolute top-50 end-0 translate-middle-y" alt="">
-                <a class="btn myBtn p-2 text-uppercase" href="novo.html" role="button">Pogledaj sve</a>
+                <a class="btn myBtn p-2 text-uppercase" href="novo.php" role="button">Pogledaj sve</a>
             </div>
 
 
