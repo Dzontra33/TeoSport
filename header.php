@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sr">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="TeoSport je vaša destinacija za najnovije modele modernih patika i sportske opreme. Pronađite najbolje proizvode za trčanje, fitnes, košarku, fudbal i druge sportove po povoljnim cenama. Sa brzom i sigurnom dostavom, kupovina naših proizvoda je laka i udobna. Posetite nas danas i pripremite se da osvojite teren u stilu sa najnovijom sportskom opremom!">
+    <meta name="keywords" content="sportska oprema, sport, patike, patike za trčanje,patike za muškarce, patike za žene, patike za decu">
+    <meta name="author" content="Nikola Teovanović">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TeoSport</title>
+    <link rel="icon" type="image/x-icon" href="./assets/logo/favicon.png">
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">

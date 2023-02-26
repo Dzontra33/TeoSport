@@ -8,7 +8,6 @@ include ('header.php');
         // Banner-area - Owl-carousel
         include('template/_banner-area.php');
         
-
         // Top ponuda - Owl-carousel
         include ('template/_top-ponuda.php');
 
